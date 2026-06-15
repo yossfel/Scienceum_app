@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scienceum</title>
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
+  <script defer
+          src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">∑</span>
+      <div>
+        <h1>Scienceum</h1>
+        <p class="tagline">a reactive notebook for symbolic &amp; numeric math</p>
+      </div>
+    </div>
+    <div class="actions">
+      <span id="status" class="status booting"><i></i>starting kernel…</span>
+      <button id="add-cell" class="btn ghost">+ Cell</button>
+      <button id="run-all" class="btn">Run all</button>
+      <button id="reset" class="btn ghost">Reset kernel</button>
+    </div>
+  </header>
+
+  <main id="notebook"></main>
+
+  <footer class="hint">
+    <kbd>Shift</kbd>+<kbd>Enter</kbd> run &amp; next ·
+    <kbd>Ctrl</kbd>+<kbd>Enter</kbd> run in place ·
+    <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd> add cell ·
+    hover a cell for <b>+</b> / <b>✕</b>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

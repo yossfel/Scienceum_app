@@ -1,0 +1,15 @@
+{
+  "name": "scienceum-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Scienceum — a reactive notebook for symbolic & numeric math (Tauri shell over the SymbolicKernel).",
+  "scripts": {
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "icons": "tauri icon src-tauri/icons/source.png",
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2"
+  }
+}
