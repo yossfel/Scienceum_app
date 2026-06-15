@@ -1,6 +1,7 @@
 # Scienceum Desktop — a Pluto-style notebook
-
-A reactive notebook for the **Scienceum language**. Write maths in cells; get
+<img src="./screenshot/screenshot.png" alt="screenshot" height="600"/>\
+This is a separate repository for the app that is included in the repository **[Scienceum](https://github.com/yossfel/Scienceum/tree/main)**. The app is considered the main interface to use (still not fully developed). For the entire project (in its early development stage), maybe I can work on it from time to time.
+The app is a reactive notebook for the **Scienceum language**. Write maths in cells; get
 exact symbolic results, numbers, matrices, and inline plots. Light theme.
 
 The app does **not** reimplement the language — it is a thin shell over the
