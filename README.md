@@ -89,13 +89,13 @@ separate
 cell to close that figure so the next plot starts clean. `contour` and `plot3d`
 each render their own standalone figure.
 
-![Three curves overlaid on one figure](../docs/images/overlay.png)
+![Three curves overlaid on one figure](./screenshot/overlay.png)
 
 So a natural notebook session is: plot a curve, run another `plot` to lay a
 second curve over it, `scatter` your data points on top, then `separate` before
 moving on to a contour or surface. The full command set (`plot`, `scatter`,
 `parametric`, `contour`, `plot3d`, `separate`) and more examples are in
-[`../docs/LANGUAGE.md`](../docs/LANGUAGE.md#plotting).
+[`../docs/LANGUAGE.md`](https://github.com/yossfel/Scienceum/tree/main/docs/images).
 
 ## Run it (development)
 
